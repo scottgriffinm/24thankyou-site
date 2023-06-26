@@ -1,4 +1,2 @@
-o migrate to aws
-o put gabes show this summer on shows page
 o make music sample description fade in and out
-o make pictures the same size
+o add secret game (under one hour of development)
