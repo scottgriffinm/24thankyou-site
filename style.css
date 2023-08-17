@@ -15,17 +15,22 @@ body {
   padding: 1em;
 }
 
+.collage-img {
+  max-height: 40%;
+  max-width: 40%;
+}
+
 #h-img {
     width: 8em;
     max-width:100%;
   }
   
-  #faces img {
+#faces img {
     height:4em;
     width:auto;
   }
   
-  #faces img:hover {
+#faces img:hover {
     height:5em;
     width:auto;
   }

@@ -86,6 +86,7 @@
             "sounds/clip_ethan.wav";
           var scottMusic =
             "sounds/clip_scott.wav";
+          var music = new Audio();
 
           var emmaDetails = "Noise 1:22-1:50";
           var mikeDetails = "Streets Are The Same 0:47-1:13";
@@ -106,8 +107,9 @@
           function myAudioFunction(bandMember) {
             try {
               music.pause();
-            } catch (error) {}
-
+            } catch (error) {
+              alert(error)
+            }
             if (bandMember == "emma") {
               music = new Audio(emmaMusic);
               musicDetails.innerHTML = emmaDetails;
@@ -119,13 +121,15 @@
               musicDetails.innerHTML = nickDetails;
             } else if (bandMember == "ethan") {
               music = new Audio(ethanMusic);
-              musicDsetails.innerHTML = ethanDetails;
+              musicDetails.innerHTML = ethanDetails;
             } else if (bandMember == "scott") {
               music = new Audio(scottMusic);
               musicDetails.innerHTML = scottDetails;
             }
             // fadeIn(musicDetails);
             music.play();
+
+
           }
         </script>
       </div>
