@@ -2,3 +2,6 @@ o migrate to aws
 o put gabes show this summer on shows page
 o make music sample description fade in and out
 o make pictures the same size
+
+o make sound work on mouse hover (or on tap on iphone)
+o make background filesize smaller (maybe only a 1 sec loop?)
