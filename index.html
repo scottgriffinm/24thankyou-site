@@ -27,11 +27,11 @@
           <div class="hg-i" id="hg-i2">
             <a href="shows.html">shows</a>
           </div>
-          <div class="hg-i" id="hg-i3">
-            <a href="https://www.instagram.com/24thankyouu/">social media</a>
+          <div class="hg-i" id="hg-i2">
+            <a href="https://961f6a-3.myshopify.com/">shop</a>
           </div>
           <div class="hg-i" id="hg-i4">
-            <a href="contact.html">contact</a>
+            <a href="https://www.instagram.com/24thankyouu/">contact</a>
           </div>
         </div>
 
@@ -95,15 +95,6 @@
           var scottDetails = "Far Away (unreleased) 0:57-1:22";
           var musicDetails = document.getElementById("musicDetails");
 
-          function fadeIn(element) {
-            element.style.opacity += 0.1;
-            if (element.style.opacity > 1.0) {
-              element.style.opacity = 1.0;
-            } else {
-              setTimeout('fadeIn("' + element + '")', 100);
-            }
-          }
-
           function myAudioFunction(bandMember) {
             try {
               music.pause();
@@ -126,10 +117,9 @@
               music = new Audio(scottMusic);
               musicDetails.innerHTML = scottDetails;
             }
-            // fadeIn(musicDetails);
+            musicDetails.style.opacity = 0;
             music.play();
-
-
+            musicDetails.style.opacity = 1;
           }
         </script>
       </div>

@@ -1,7 +1,7 @@
 
 body {
-  background-image: url('img/album_out.gif');
-  background-size: 10em;
+  /*background-image: url('img/album_out.gif');
+  background-size: 10em;*/
 }
 
 .center-wrap-wrap {
@@ -31,22 +31,27 @@ body {
   }
   
 #faces img:hover {
-    height:5em;
-    width:auto;
+    /*height:5em;
+    width:auto;*/
   }
   
   #musicDetails {
-    opacity:1.0;
+    opacity: 0;
+    transition: 1s;
   }
   
   a {
     text-decoration:none;
     color:black;
+    opacity:1;
+    transition: .3s;
   }
   
   a:hover {
-    color:#90ff67;
+    /*color:#90ff67;
     color: var('--a-hover-color');
+    */
+    opacity:0.5;
   }
   
   .center-wrap {
